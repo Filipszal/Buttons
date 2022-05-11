@@ -5,7 +5,7 @@ How did I make this button?
 
 1. In HTML file i used the tag "a"\_
 2. Then in css file I am reffering to that element.<br />
-   <font color="green"> 2.1 </font> Make sure to set display of "a" element to block or inline-block. In my example it does not matter which one will you choose.<br />
+   <span style="color=green"> 2.1 </span> Make sure to set display of "a" element to block or inline-block. In my example it does not matter which one will you choose.<br />
    Setting position property on "relative" will be useful for making pulse effect.<br />
    <font color="green">2.2 </font>Make basic styling of that element: bgc, padding...<br />
    <font color="green">2.3 </font>Use pseudoclasses and pseudoelement in orhet to add some movement into that element.<br />
