@@ -16,6 +16,6 @@ How did I make this button?
    <font color="green">2.3.4</font> Get the pulse effect!<br />
    <font color="green">2.3.4.1 </font>You can easily get the pulse effect by using pseudoelement ::after or ::before (it does not really <br />mater which you choose in this example).<br />
    <font color="green">2.3.4.2 </font>Style this element (use the same properties as with "a" element). Set width and height of that.<br /> element to 100% in order for this element to have the same width and height as "a" element.<br />
-   <font color="green">2.3.4.3 </font>Use position:absolute and then set left, and top properties to 0. After that pseudoelement a::after should cover "a" element, so set z-index to -1, because you want to active ::after only when the button is hovered<br />
-   <font color="green">2.3.4.4 </font>On a::after element set tranistion, and then on a:hover::after use opacity, and this effect will make this pulse effect.
+   <font color="green">2.3.4.3 </font>Use position:absolute and then set left, and top properties to 0. Also you will need to set transform:scale() in order to make this button, wider and higher when it will be covered. After that, pseudoelement a::after should cover "a" element, so set z-index to -1, because you want to activate ::after only when the button is hovered<br />
+   <font color="green">2.3.4.4 </font>On a::after element set tranistion, and then on a:hover::after use opacity, and that will make this pulse effect.
    </font>
